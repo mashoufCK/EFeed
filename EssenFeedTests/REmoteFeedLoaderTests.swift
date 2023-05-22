@@ -18,7 +18,7 @@ class HTTPClient {
  //not a singleton anymore, by making this a var we can  make subclasses of this
     static var shared = HTTPClient()
     
-    private init () {}
+   // private init () {}
     func get(from url: URL) {
       }
     
